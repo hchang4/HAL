@@ -1,0 +1,14 @@
+make -C ipc clean
+make -C ipc
+
+make -C src clean
+make -C src
+
+make -C TestResolveName clean
+make -C TestResolveName
+
+make -C TestHAL clean
+make -C TestHAL
+ 
+make -C cand clean
+make -C cand

@@ -1,0 +1,33 @@
+Application usage:
+<app_name> -m <app_mode> -n <value> -c (Pre configure) -v (Verbose - optional)
+
+-m <app_mode>:
+  s: Test Solenoid
+  t: Test RTD
+  h: Test Heater Control
+  p: Test Preamp - streaming
+  u: Serial IO
+  i: Digital IN
+  o: Digital OUT
+  e: EPC
+  r: Analog IN
+  w: Analog OUT
+-n <value> (Optional):
+  Channel No.: 0 to 1 when 'app_mode' is p (Preamp)
+  Channel No.: 0 to 2 when 'app_mode' is u (Serial)
+  Time interval: In milliseconds, b/n RTD channel reads when 'app_mode' is t (RTD)
+  Not valid for other modes.
+-c (Pre configure):
+  Optional pre-configure command line switch. If any of the
+  test modes provide an option to configure certain device
+  settings before beginning the test cycle, specifying this
+  switch will present the user with the configuration
+  options. Not specifying this switch will directly run
+  the requested test.
+  Valid for <app_mode> = p (Preamp) or s (Solenoid)
+-v (Verbose)
+  Not specifying this switch will disable the display of some messages during application execution.
+
+
+
+

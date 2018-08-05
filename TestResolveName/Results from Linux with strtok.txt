@@ -1,0 +1,20 @@
+***** Test Results *****
+
+                                              Name	    RetVal	    FnType	    SlotID	    FnEnum	  CANorSPI
+                            ANA_IN:SLOT_1:ANA_IN_1	         0	         0	         2	         1	         1
+               DIGI_IN:REMOTE_EXP_SLOT_1:DIGI_IN_1	         0	         2	         7	         1	         1
+                                   RTD:SLOT_2:RTD1	         0	         5	         3	         1	         1
+                                   RTD:SLOT_2:RTD2	         0	         5	         3	         2	         1
+                                   RTD:SLOT_2:RTD3	         0	         5	         3	         3	         1
+                                   RTD:SLOT_2:RTD4	         0	         5	         3	         4	         1
+                                   RTD:SLOT_2:RTD5	         0	         5	         3	         5	         1
+                  HTR_CTRL:SLOT_BASE_IO:HTR_CTRL_1	         0	         6	         6	         1	         1
+                        HTR_CTRL:SLOT_4:HTR_CTRL_1	         0	         6	         5	         1	         1
+                            PREAMP:SLOT_3:PREAMP_1	         0	         4	         4	         1	         1
+                            PREAMP:SLOT_3:PREAMP_2	         0	         4	         4	         2	         1
+                        SERIAL:EXP_SLOT_2:SERIAL_1	         0	         8	         1	         1	         0
+                           ANNA_IN:SLOT_1:ANA_IN_1	        -8	       255	         2	         1	         1
+                           ANA_IN:SLOT_10:ANA_IN_1	        -8	         0	       255	         1	         0
+                            ANA_IN:SLOT_1:ANA_IN_x	        -8	         0	         2	       255	         1
+                          ANNA_IN:SLOT_10:ANA_IN_1	        -8	       255	       255	         1	         0
+                         ANNA_IN:SLOT_10:ANA_IN_xx	        -8	       255	       255	       255	         0

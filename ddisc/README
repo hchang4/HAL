@@ -1,0 +1,9 @@
+
+Application usage:
+<app_name> -d <dev_path> (optional)
+Eg:
+
+ddisc
+
+ddisc -d /dev/can1
+

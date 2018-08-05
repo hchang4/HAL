@@ -1,0 +1,36 @@
+#!/bin/sh
+
+# Revision history:
+# $Id: nodes_vcan,v 1.2 2010/09/01 16:26:19 emrsn\LRatner Exp $
+# $Log: nodes_vcan,v $
+# Revision 1.2  2010/09/01 16:26:19  emrsn\LRatner
+# Added if-not-exist tests to avoid "File Exists" error messages.
+#
+
+if [ ! -e /dev/can1 ]; then
+    mknod -m0777 /dev/can1 c 91 0
+fi
+
+if [ ! -e /dev/can2 ]; then
+    mknod -m0777 /dev/can2 c 91 1
+fi
+
+if [ ! -e /dev/can3 ]; then
+    mknod -m0777 /dev/can3 c 91 2
+fi
+
+if [ ! -e /dev/can4 ]; then
+    mknod -m0777 /dev/can4 c 91 3
+fi
+
+if [ ! -e /dev/can5 ]; then
+    mknod -m0777 /dev/can5 c 91 4
+fi
+
+if [ ! -e /dev/can6 ]; then
+    mknod -m0777 /dev/can6 c 91 5
+fi
+
+if [ ! -e /dev/can7 ]; then
+    mknod -m0777 /dev/can7 c 91 6
+fi

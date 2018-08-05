@@ -1,0 +1,13 @@
+HOWTO compile the modules:
+
+- Ensure the KERNELDIR in the Makefile in this dir points to this kernel
+- Type the following on the command line.
+
+# make ARCH=i386 CROSS_COMPILE=
+
+- You will get virtcan.ko. Insert the kernel module
+
+# insmod virtcan.ko
+
+- Access the virtual CAN drivers at
+  /dev/can1 (major=91, minor=0) through /dev/can7 (major=91, minor=6)
